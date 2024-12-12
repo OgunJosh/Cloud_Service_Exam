@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj": {}
+    "c:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj": {
+    "c:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj",
+        "projectUniqueName": "c:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj",
         "projectName": "Cloud_Service_Exam",
-        "projectPath": "C:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj",
+        "projectPath": "c:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\Cloud_Service_Exam.csproj",
         "packagesPath": "C:\\Users\\JoshO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\obj\\",
+        "outputPath": "c:\\Users\\JoshO\\OneDrive\\Desktop\\Cloud_Service_Exam\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[1.42.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
